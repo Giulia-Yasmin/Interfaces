@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHEETOS</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <style>
+        body {
+            background-color: #fff;
+        }
+        .container {
+            display: flex;
+            align-items: flex-start; 
+        }
+        h1 {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 45px;
+            margin-left: 106px;
+        }
+        .img {
+            width: 400px;
+            height: 400px; 
+            border: 7px solid #ff9900;
+        }
+        .coluna-container {
+            display: flex;
+            flex-direction: column; 
+            margin-left: 25px; 
+        }
+        .painel {
+            border: 2px solid #ff9900; 
+            background-color: #fff; 
+            padding: 0; 
+            border-radius: 0; 
+        }
+        .painel-titulo {
+            margin: 0; 
+            border: none; 
+            background-color: #ff9900; 
+            font-size: large;
+            padding: 10px; 
+        }
+        .painel-corpo {
+            margin: 0; 
+            padding: 10px; 
+        }
+        p {
+            font-family: fantasy;
+            color: #000;
+            font-size: 35px;
+            margin-left: 2px;
+            margin-top: 40px;
+        }
+        .lado {
+            display: flex; 
+            flex-direction: row; 
+            margin-top: 0px;
+        }
+        input {
+            margin-top: 51px;
+            margin-left: 10px;
+            width: 150px;
+            height: 20px;
+        }
+        h5 {
+            margin-top: 50px;
+            font-size: 25px;
+            margin-left: 30px;
+        }
+        button {
+            background-color: red;
+            color: #fff;
+            border: 2px solid #000;
+            margin-top: 55px;
+            margin-left: 10px;
+            width: 150px;
+            height: 20px;
+        }
+        .nav-tabs {
+            margin-top: 20px;
+            margin-left: 52px;
+        }
+        .padrao img {
+            height: 200px; 
+            width: 200px; 
+            margin: 5px; 
+        }
+        video{
+            margin-right: 0px;
+            margin-left: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Cheetos</h1>
+    <div class="container">
+        <img class="img" src="./cheetos.jpg">
+        <div class="coluna-container">
+            <div class="painel">
+                <div class="painel-titulo">INFORMAÇÕES DOS PRODUTOS</div> 
+                <div class="painel-corpo"> 
+                    <h4>
+                        Cheetos é uma marca que engloba vários tipos de snacks de farinha de milho com sabor de queijo
+                        distribuídas pela Frito-Lay, uma subsidiária da PepsiCo. 
+                        A marca apareceu pela primeira vez em 1948 como "Fritatos" e foi inventada por Charles Elmer Doolin,
+                        que também é criador de Fritos.
+                    </h4>
+                </div>
+            </div>
+            <div class="lado">
+                <p>R$ 9,00</p> 
+                <h5>Escolha a quantidade:</h5>
+                <input type="text">
+                <button>Adicionar ao carrinho</button>
+            </div>
+        </div>
+    </div>
+    
+    <ul class="nav nav-tabs">
+        <li class="active"><a data-toggle="tab" href="#videos">Vídeos</a></li>
+        <li><a data-toggle="tab" href="#menu1">Fotos</a></li>
+        <li><a data-toggle="tab" href="#menu2">Comentários</a></li>
+    </ul>
+    
+    <div class="tab-content">
+        <div id="videos" class="tab-pane fade in active">
+            <video src="./video.mp4" controls></video>
+        </div>
+        <div id="menu1" class="tab-pane fade">
+            <div class="padrao">
+                <img src="./1.webp">
+                <img src="./2.webp">
+                <img src="./3.avif">
+                <img src="./4.webp">
+                <img src="./5.jpg">
+            </div>
+        </div>
+        <div id="menu2" class="tab-pane fade">
+            <h3>Comentários</h3>
+            <p>Conteúdo dos comentários aqui.</p>
+        </div>
+    </div>
+
+</body>
+</html>

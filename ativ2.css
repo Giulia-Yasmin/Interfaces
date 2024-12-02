@@ -1,0 +1,36 @@
+header{
+    height:225px; 
+    width: 100%;
+    font-weight: bold;
+    background-color: #99ccff;
+    text-align: center;
+}
+nav{
+    width: 25%;
+    height: 500px; 
+    font-weight: bold;
+    background-color: #c7f7fe;
+    margin-top: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+section{
+    width: 75%;
+    margin-top: 10px;
+    height: 500px; 
+    background-color: #66b3ff;
+    font-weight: bold;
+    text-align: center;
+}
+footer{
+    width: 100%;
+    margin-top: 10px;
+    height:180px; 
+    background-color: #80dfff;
+    font-weight: bold;
+    text-align: center;
+}
+div{
+     display: flex; 
+     flex-direction: row;
+}

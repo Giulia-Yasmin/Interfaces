@@ -1,0 +1,46 @@
+nav{
+    font-size: 25px;
+    height:100px; 
+    width: 100%;
+    font-weight: bold;
+    background-color: #c7f7fe;
+    margin-right: 10px;
+}
+header{
+    font-size: 25px;
+    margin-top: 10px;
+    height:200px; 
+    width: 100%;
+    font-weight: bold;
+    background-color: #99ccff;
+}
+section{
+    font-size: 25px;
+    width: 75%;
+    margin-top: 10px;
+    margin-right: 10px;
+    height: 500px; 
+    background-color: #66b3ff;
+    font-weight: bold;
+}
+aside{
+    font-size: 25px;
+    width: 25%;
+    height: 500px; 
+    font-weight: bold;
+    background-color: #5c7ffe;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+footer{
+    font-size: 25px;
+    width: 100%;
+    margin-top: 10px;
+    height:100px; 
+    background-color: #80dfff;
+    font-weight: bold;
+}
+div{
+    display: flex; 
+    flex-direction: row;
+}
